@@ -25,22 +25,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:weightSum="4"
         android:gravity="bottom">
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:id="@+id/capture_image"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@mipmap/ic_camera"
-        tools:layout_editor_absoluteY="447dp"
-        tools:layout_editor_absoluteX="16dp" />
+        android:background="@mipmap/ic_camera" />
 
     <ImageButton
         android:id="@+id/flash"
-        android:layout_weight="1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@mipmap/ic_flash"
@@ -51,25 +46,25 @@
         android:layout_marginStart="50dp"
         android:layout_alignTop="@+id/capture_image" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:id="@+id/switch_camera"
-        android:background="@mipmap/ic_cameraswitch"
-        tools:layout_editor_absoluteY="447dp"
-        tools:layout_editor_absoluteX="282dp"
-        android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/capture_image"
-        android:layout_marginStart="58dp" />
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:id="@+id/switch_camera"-->
+        <!--android:background="@mipmap/ic_cameraswitch"-->
+        <!--tools:layout_editor_absoluteY="447dp"-->
+        <!--tools:layout_editor_absoluteX="282dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_toEndOf="@+id/capture_image"-->
+        <!--android:layout_marginStart="58dp" />-->
 
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_screenshot"
-            android:id="@+id/screen_shot"
-            android:layout_weight="1" />
+        <!--<ImageButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/ic_screenshot"-->
+            <!--android:id="@+id/screen_shot"-->
+            <!--android:layout_weight="1" />-->
 
 
     </LinearLayout>
